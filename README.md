@@ -1,6 +1,7 @@
 # ⚡ Fast Downloader → Google Drive
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1fLMNbsv0oiWxwXykzlGpjmklzjJtLG8H#scrollTo=8IhbrM-V5jVr)
+![Version](https://img.shields.io/badge/version-v1.1.0-blue.svg)
 
 A high-speed Google Colab notebook designed to download direct files, magnet/torrent links, and video URLs directly into your Google Drive using high-bandwidth cloud servers.
 
