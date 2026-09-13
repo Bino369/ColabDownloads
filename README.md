@@ -8,6 +8,7 @@ A high-speed Google Colab notebook designed to download direct files, magnet/tor
 
 ## 🌟 Key Features
 
+- **📊 Live Progress Bar & Download Speed**: Real-time progress updates showing download speed (e.g., `45.2 MiB/s`), percentage, transferred size, and ETA.
 - **🧲 Magnet & Torrent Support**: Fast torrent downloads using `aria2c` with automatic seed stopping timeout.
 - **🎥 Video Downloader**: Download YouTube and generic video links via `yt-dlp`.
 - **🚀 Multi-Threaded Direct Downloads**: Accelerated file downloads utilizing up to 16 parallel connections with `aria2c`.
@@ -33,6 +34,24 @@ A high-speed Google Colab notebook designed to download direct files, magnet/tor
    - Run the final cell.
    - Paste one or more links into the text prompt (separate multiple links with commas).
    - Press <kbd>Enter</kbd> to begin.
+
+### 📊 Live Download Progress & Speed Preview
+
+When downloading, the notebook displays continuous real-time progress bars and live transfer speeds:
+
+**Direct & Magnet/Torrent Downloads (`aria2c`):**
+```text
+📄 Direct file link detected — downloading with aria2c (16 connections)...
+[#b8d1e2 420MiB/1.2GiB(35%) CN:16 DL:54.2MiB ETA:14s]
+✅ Done! Check /content/drive/MyDrive/ColabDownloads in your Drive.
+```
+
+**Video Downloads (`yt-dlp`):**
+```text
+🎥 YouTube/video link detected — downloading with yt-dlp...
+[download]  68.4% of  120.50MiB at   38.5MiB/s ETA 00:01
+✅ Done! Check /content/drive/MyDrive/ColabDownloads in your Drive.
+```
 
 ---
 
