@@ -18,7 +18,7 @@ A high-speed Google Colab notebook designed to download direct files, magnet/tor
 
 ## 🚀 Quick Start & Usage
 
-1. **Open in Google Colab**: Click the [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1fLMNbsv0oiWxwXykzlGpjmklzjJtLG8H#scrollTo=8IhbrM-V5jVr) badge or open [`fast_downloader.ipynb`](file://ColabDownloads/fast_downloader.ipynb) directly.
+1. **Open in Google Colab**: Click the [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1fLMNbsv0oiWxwXykzlGpjmklzjJtLG8H#scrollTo=8IhbrM-V5jVr) badge or open [`fast_downloader.ipynb`](https://github.com/Bino369/ColabDownloads/blob/main/fast_downloader.ipynb) directly.
 2. **Execute Environment Setup**:
    Run Cell 1 to install necessary dependencies (`aria2` and `yt-dlp`).
 3. **Mount Google Drive**:
